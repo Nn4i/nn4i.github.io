@@ -1,6 +1,12 @@
 a {
-	background-color: RGB(0, 0, 255);
-	border: 7px solid #2F3841;
+	text-decoration: none;
+	background-color: #F5F5F5;
+	border: 7px solid #D7ADAD;
 	border-radius: 10px;
 	font-size: 30px;
+	padding: 0px 15px 0px 15px;
+}
+
+body {
+	background-color: #C1B5B5;
 }
