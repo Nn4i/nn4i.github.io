@@ -1,0 +1,12 @@
+
+#title {
+	transition: 0.5s;
+	filter:blur(0px);
+}
+.thumbnail:hover + #title {
+	color: green;
+	transition: 0.5s;
+	filter:blur(3px);
+}
+
+

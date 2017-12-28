@@ -4,12 +4,15 @@
   width: 200px;
   float: left;
   transition: 0.5s;
-  font-family: "Merriweather Sans" ,Helvetica ,Arial ,sans-serif;
-  color: white;
+  filter:blur(3px);
 }
 #main1:hover + #booksblur {
   transition: 0.5s;
   filter:blur(3px);
+}
+#main1:hover{
+  transition: 0.5s;
+  filter:blur(0px);
 }
 .book0:hover .book1{
   transition: 0.5s;
@@ -45,6 +48,6 @@
   color: RGBA(255,255,255,0);
 }
 
-.logo {
-	width: 100%;
+#main1:hover #showme {
+  filter: blur(0px);
 }
