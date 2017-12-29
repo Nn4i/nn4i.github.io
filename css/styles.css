@@ -1,35 +1,66 @@
 .maincss {
   background-color: gray;
-  height: 400px;
-  width: 200px;
+  width: 250px;
+  height: 900px;
   float: left;
   transition: 0.5s;
   font-family: "Merriweather Sans" ,Helvetica ,Arial ,sans-serif;
   color: white;
+  font-size: 1.5em;
+  border-radius: 10px;
+  radius: 10px;
 }
-#main1:hover + #booksblur {
+.co {
+	  border: 13px solid black;
+	  border-radius: 10px;
+}
+.maincat {
+	list-style-type: square;
+	position: relative;
+	right: 13px;
+}
+a {
+	transition: 0.5s;
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	transition: 0.5s;
+	color: #FBF2FF;
+}
+
+#main1:hover + #books {
   transition: 0.5s;
   filter:blur(3px);
 }
 .book0:hover .book1{
   transition: 0.5s;
   filter:blur(3px);
+  
 }
 .book0:hover .book2{
   transition: 0.5s;
   color: RGBA(255,255,255,1);
+  background: RGBA(168, 234, 255, 0.3);
+  
 }
-#booksblur {
-  transition: 0.5s;
-  filter: blur(0px);
+#books {
+	transition: 0.5s;
+	filter:blur(0px);
 }
-
 .book0 {
   margin: 10px 10px 10px 10px;
   float: left;
-  height: 100px;
-  width: 100px;
+  height: 306px;
+  width: 217px;
 }
+.book0 div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+
 .book1 {
   transition: 0.5s;
   filter:blur(0px);
@@ -38,11 +69,18 @@
   width: 100%;
 }
 .book2 {
+  transition: 0.5s;
   height:100%;
   position: relative;
-  bottom: 100px;
+  bottom: 310px;
   transition: 0.5s;
-  color: RGBA(255,255,255,0);
+  color: RGBA(255, 255, 255, 0);
+  background: RGBA(255, 255, 255, 0);
+  
+}
+.book2 span{
+	position: relative;
+	bottom: 15px;
 }
 
 .logo {
