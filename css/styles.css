@@ -1,28 +1,43 @@
-.maincss {
-  background-color: gray;
-  width: 250px;
-  height: 900px;
-  float: left;
-  transition: 0.5s;
-  font-family: "Merriweather Sans" ,Helvetica ,Arial ,sans-serif;
-  color: white;
-  font-size: 1.5em;
-  border-radius: 10px;
-  radius: 10px;
+body {
+	background-color: #14051C;
 }
-.co {
-	  border: 13px solid black;
-	  border-radius: 10px;
+.maincss {
+	margin: 10px 15px 13px 15px;
+	background-color: #170620;
+	width: 250px;
+	height: 729px;
+	float: left;
+	transition: 0.5s;
+	font-family: "Merriweather Sans" ,Helvetica ,Arial ,sans-serif;
+	font-size: 1.4em;
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	color: #c0e7f9;
+	box-shadow: 0 0 20px white;
 }
 .maincat {
-	list-style-type: square;
+	list-style-type: none;
 	position: relative;
-	right: 13px;
+	right: 23px;
+	color: #c0e7f9;
+	text-align: center;
+	
+}
+
+.maincat li {
+	border-bottom: 1px solid white;
+	text-shadow: 2px 2px 0px #A500FF;
+}
+
+.maincat a {
+	transition: 0.5s;
+	text-decoration: none;
+	color: white;
+	
 }
 a {
 	transition: 0.5s;
 	text-decoration: none;
-	color: white;
 }
 a:hover{
 	transition: 0.5s;
@@ -49,17 +64,23 @@ a:hover{
 	filter:blur(0px);
 }
 .book0 {
-  margin: 10px 10px 10px 10px;
-  float: left;
-  height: 306px;
-  width: 217px;
+	margin: 10px 15px 15px 15px;
+	float: left;
+	height: 352px;
+	width: 250px;
 }
 .book0 div {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  
 }
 
+.book0 img {
+	border: 1px solid #FFF;
+	border-radius: 10px;
+	box-shadow: 0 0 15px white;
+}
 
 .book1 {
   transition: 0.5s;
@@ -72,10 +93,11 @@ a:hover{
   transition: 0.5s;
   height:100%;
   position: relative;
-  bottom: 310px;
+  bottom: 357px;
   transition: 0.5s;
   color: RGBA(255, 255, 255, 0);
   background: RGBA(255, 255, 255, 0);
+  border-radius: 10px;
   
 }
 .book2 span{
@@ -85,4 +107,13 @@ a:hover{
 
 .logo {
 	width: 100%;
+}
+
+#slogo {
+	margin:10px 15px 10px 15px;
+	color: white;
+	text-align: left;
+	font-family: "Merriweather Sans" ,Helvetica ,Arial ,sans-serif;
+	font-size: 1.4em;
+	border-bottom: 1px solid white;
 }
