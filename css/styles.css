@@ -1627,6 +1627,7 @@ body {
 	
 }
 a {
+	color: white;
 	transition: 0.5s;
 	text-decoration: none;
 }
@@ -1648,7 +1649,7 @@ a:hover{
   transition: 0.5s;
   color: RGBA(255,255,255,1);
   background: RGBA(168, 234, 255, 0.3);
-  
+  text-shadow: 2px 2px 1px black;
 }
 #books {
 	transition: 0.5s;
@@ -1676,7 +1677,7 @@ a:hover{
 .book1 {
   transition: 0.5s;
   filter:blur(0px);
-  background-color: yellow;
+  background-color: black;
   height: 100%;
   width: 100%;
 }
@@ -1694,6 +1695,8 @@ a:hover{
 .book2 span{
 	position: relative;
 	bottom: 15px;
+	left: 15px;
+	font-size: 150%;
 }
 
 .logo {
@@ -1710,6 +1713,8 @@ a:hover{
 	text-shadow: 2px 2px 0px #A500FF;
 }
 
-
+.descriptioncss {
+	font-size: 50%;
+}
 //////////////
 
