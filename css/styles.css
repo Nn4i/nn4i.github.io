@@ -1,5 +1,13 @@
 body {
 	background-color: #14051C;
+	zoom: 1;
+}
+
+@media screen and (max-width: 1020px) {
+  body {
+	background-color: #14051C;
+	zoom: 0.7;
+}
 }
 
 .maincss {
