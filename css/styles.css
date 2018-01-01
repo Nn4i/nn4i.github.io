@@ -1,6 +1,15 @@
 body {
 	background-color: #14051C;
+	zoom: 1;
 }
+
+@media screen and (max-width: 1125px) {
+  body {
+	background-color: #14051C;
+	zoom: 1.5;
+}
+}
+
 .maincss {
 	margin: 10px 15px 13px 15px;
 	background-color: #170620;
@@ -114,6 +123,6 @@ a:hover{
 	color: white;
 	text-align: left;
 	font-family: "Merriweather Sans" ,Helvetica ,Arial ,sans-serif;
-	font-size: 1.4em;
+	font-size: 200%;
 	border-bottom: 1px solid white;
 }
